@@ -1,0 +1,27 @@
+#title {
+	color:#6E6E6E;
+}
+
+div {
+	margin:10px;
+}
+
+#FullTitle {
+	font-family: "Trebuchet MS";
+}
+
+#BLUE {
+	color:blue;
+}
+
+#RED {
+	color:red;
+}
+
+#Cross {
+	text-decoration: line-through;
+}
+
+#ALIGNMENT {
+	text-align: left;
+}
