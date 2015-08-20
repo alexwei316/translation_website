@@ -10,7 +10,7 @@ div {
 	font-family: "Trebuchet MS";
 }
 
-#BLUE {
+.BLUE {
 	color:blue;
 }
 
@@ -24,4 +24,8 @@ div {
 
 #ALIGNMENT {
 	text-align: left;
+}
+
+.BOLD {
+	font-weight: bold;
 }
