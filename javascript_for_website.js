@@ -28,10 +28,10 @@ $(document).ready(function() {
     	var cell2 = row.insertCell(1);
     	var cell3 = row.insertCell(2);
     	cell1.innerHTML = '<span class="BLUE BOLD">' + original_spanish_word + '</span>';
-    	if original_english_word === bla {
+    	if (original_english_word === bla) {
     		cell2.innerHTML = '<span class="BLUE BOLD">' + bla + '</span>';
     	} else {
-    		cell2.innerHTML = '<span class="RED CROSS">' + bla + '</span>';
+    		cell2.innerHTML = '<span class="RED Cross">' + bla + '</span>';
     	}
     	cell2.innerHTML = bla; 
 
