@@ -8,5 +8,20 @@ $(document).ready(function() {
 	}
 
 	words = fetchRandom();
+	$("#spanish_input").html(words[1])
 	console.log(words[0], words[1]);
+	$("#inputid").focus();
+	$("#answerid").click(function() {
+		$("#inputid").val('');
+		var fetch = fetchRandom();
+		$("#spanish_input").html(fetch[1])
+	$("#ssanswerid").click(function myFunction() {
+    	var table = document.getElementById("ALIGNMENT");
+    	var row = table.insertRow(1);
+    	var cell1 = row.insertCell(0);
+    	var cell2 = row.insertCell(1);
+    	cell1.innerHTML = "NEW CELL1";
+    	cell2.innerHTML = "NEW CELL2";
+	});
+	});
 });
